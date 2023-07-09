@@ -5,15 +5,17 @@
 body {
     margin: 0;
     background-color: #000000;
-    animation: Transition 1s ;
+    animation: Transition 1.5s ;
 }
 
 @keyframes Transition{
     from{
         opacity: 0;
+        transform: rotate(90deg);
     }
     to{
         opacity: 1;
+        transform: rotate(0deg);
     }
 }
 
